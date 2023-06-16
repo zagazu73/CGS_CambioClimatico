@@ -1,0 +1,89 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: El directorio Output no termina con una barra diagonal final. Esta instancia de compilación agregará la barra diagonal porque es necesaria para que se pueda evaluar correctamente el directorio Output.
+  11_ParticleAnimation.cpp
+C:\Users\zuriel\Desktop\ZZG\UNAM\INGENIERÍA\SEMESTRE 2023-2\CGIHC\PROYECTO\Proyecto_Ejecutable_CG\code\include\camera.h(72,24): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\zuriel\Desktop\ZZG\UNAM\INGENIERÍA\SEMESTRE 2023-2\CGIHC\PROYECTO\Proyecto_Ejecutable_CG\code\include\light.h(26,16): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\zuriel\Desktop\ZZG\UNAM\INGENIERÍA\SEMESTRE 2023-2\CGIHC\PROYECTO\Proyecto_Ejecutable_CG\code\include\particles.h(28,20): warning C4244: '=': conversión de 'int' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\zuriel\Desktop\ZZG\UNAM\INGENIERÍA\SEMESTRE 2023-2\CGIHC\PROYECTO\Proyecto_Ejecutable_CG\code\include\particles.h(29,20): warning C4244: '=': conversión de 'int' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\zuriel\Desktop\ZZG\UNAM\INGENIERÍA\SEMESTRE 2023-2\CGIHC\PROYECTO\Proyecto_Ejecutable_CG\code\include\particles.h(30,27): warning C4244: '=': conversión de 'int' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\zuriel\Desktop\ZZG\UNAM\INGENIERÍA\SEMESTRE 2023-2\CGIHC\PROYECTO\Proyecto_Ejecutable_CG\code\11_ParticleAnimation.cpp(325,26): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\zuriel\Desktop\ZZG\UNAM\INGENIERÍA\SEMESTRE 2023-2\CGIHC\PROYECTO\Proyecto_Ejecutable_CG\code\11_ParticleAnimation.cpp(428,20): warning C4305: '+=': truncamiento de 'double' a 'float'
+  stb_image.cpp
+  Generando código...
+11_ParticleAnimation.obj : error LNK2019: símbolo externo _gladLoadGLLoader sin resolver al que se hace referencia en la función "bool __cdecl Start(void)" (?Start@@YA_NXZ)
+11_ParticleAnimation.obj : error LNK2019: símbolo externo _glfwInit sin resolver al que se hace referencia en la función "bool __cdecl Start(void)" (?Start@@YA_NXZ)
+11_ParticleAnimation.obj : error LNK2019: símbolo externo _glfwTerminate sin resolver al que se hace referencia en la función "bool __cdecl Start(void)" (?Start@@YA_NXZ)
+11_ParticleAnimation.obj : error LNK2019: símbolo externo _glfwWindowHint sin resolver al que se hace referencia en la función "bool __cdecl Start(void)" (?Start@@YA_NXZ)
+11_ParticleAnimation.obj : error LNK2019: símbolo externo _glfwCreateWindow sin resolver al que se hace referencia en la función "bool __cdecl Start(void)" (?Start@@YA_NXZ)
+11_ParticleAnimation.obj : error LNK2019: símbolo externo _glfwWindowShouldClose sin resolver al que se hace referencia en la función _main
+11_ParticleAnimation.obj : error LNK2019: símbolo externo _glfwSetWindowShouldClose sin resolver al que se hace referencia en la función "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPAUGLFWwindow@@@Z)
+11_ParticleAnimation.obj : error LNK2019: símbolo externo _glfwSetFramebufferSizeCallback sin resolver al que se hace referencia en la función "bool __cdecl Start(void)" (?Start@@YA_NXZ)
+11_ParticleAnimation.obj : error LNK2019: símbolo externo _glfwPollEvents sin resolver al que se hace referencia en la función "bool __cdecl Update(void)" (?Update@@YA_NXZ)
+11_ParticleAnimation.obj : error LNK2019: símbolo externo _glfwGetKey sin resolver al que se hace referencia en la función "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPAUGLFWwindow@@@Z)
+11_ParticleAnimation.obj : error LNK2019: símbolo externo _glfwSetCursorPosCallback sin resolver al que se hace referencia en la función "bool __cdecl Start(void)" (?Start@@YA_NXZ)
+11_ParticleAnimation.obj : error LNK2019: símbolo externo _glfwSetScrollCallback sin resolver al que se hace referencia en la función "bool __cdecl Start(void)" (?Start@@YA_NXZ)
+11_ParticleAnimation.obj : error LNK2019: símbolo externo _glfwGetTime sin resolver al que se hace referencia en la función "bool __cdecl Update(void)" (?Update@@YA_NXZ)
+11_ParticleAnimation.obj : error LNK2019: símbolo externo _glfwMakeContextCurrent sin resolver al que se hace referencia en la función "bool __cdecl Start(void)" (?Start@@YA_NXZ)
+11_ParticleAnimation.obj : error LNK2019: símbolo externo _glfwSwapBuffers sin resolver al que se hace referencia en la función "bool __cdecl Update(void)" (?Update@@YA_NXZ)
+11_ParticleAnimation.obj : error LNK2019: símbolo externo _glfwGetProcAddress sin resolver al que se hace referencia en la función "bool __cdecl Start(void)" (?Start@@YA_NXZ)
+11_ParticleAnimation.obj : error LNK2019: símbolo externo "public: __thiscall Assimp::Importer::Importer(void)" (??0Importer@Assimp@@QAE@XZ) sin resolver al que se hace referencia en la función "public: __thiscall Model::Model(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)" (??0Model@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z)
+11_ParticleAnimation.obj : error LNK2019: símbolo externo "public: __thiscall Assimp::Importer::~Importer(void)" (??1Importer@Assimp@@QAE@XZ) sin resolver al que se hace referencia en la función __unwindfunclet$??0Model@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z$5
+11_ParticleAnimation.obj : error LNK2019: símbolo externo "public: struct aiScene const * __thiscall Assimp::Importer::ReadFile(char const *,unsigned int)" (?ReadFile@Importer@Assimp@@QAEPBUaiScene@@PBDI@Z) sin resolver al que se hace referencia en la función "public: struct aiScene const * __thiscall Assimp::Importer::ReadFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)" (?ReadFile@Importer@Assimp@@QAEPBUaiScene@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z)
+11_ParticleAnimation.obj : error LNK2019: símbolo externo "public: char const * __thiscall Assimp::Importer::GetErrorString(void)const " (?GetErrorString@Importer@Assimp@@QBEPBDXZ) sin resolver al que se hace referencia en la función "private: void __thiscall Model::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadModel@Model@@AAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+11_ParticleAnimation.obj : error LNK2019: símbolo externo _aiGetMaterialTextureCount sin resolver al que se hace referencia en la función "public: unsigned int __thiscall aiMaterial::GetTextureCount(enum aiTextureType)const " (?GetTextureCount@aiMaterial@@QBEIW4aiTextureType@@@Z)
+11_ParticleAnimation.obj : error LNK2019: símbolo externo _aiGetMaterialTexture sin resolver al que se hace referencia en la función "public: enum aiReturn __thiscall aiMaterial::GetTexture(enum aiTextureType,unsigned int,struct aiString *,enum aiTextureMapping *,unsigned int *,float *,enum aiTextureOp *,enum aiTextureMapMode *)const " (?GetTexture@aiMaterial@@QBE?AW4aiReturn@@W4aiTextureType@@IPAUaiString@@PAW4aiTextureMapping@@PAIPAMPAW4aiTextureOp@@PAW4aiTextureMapMode@@@Z)
+11_ParticleAnimation.obj : error LNK2019: símbolo externo "__declspec(dllimport) class irrklang::ISoundEngine * __cdecl irrklang::createIrrKlangDevice(enum irrklang::E_SOUND_OUTPUT_DRIVER,int,char const *,char const *)" (__imp_?createIrrKlangDevice@irrklang@@YAPAVISoundEngine@1@W4E_SOUND_OUTPUT_DRIVER@1@HPBD1@Z) sin resolver al que se hace referencia en la función "void __cdecl `dynamic initializer for 'SoundEngine''(void)" (??__ESoundEngine@@YAXXZ)
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glPolygonMode sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glTexParameteri sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glTexImage2D sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glClear sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glClearColor sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glDepthMask sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glEnable sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glBlendFunc sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glViewport sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glDrawArrays sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glDrawElements sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glBindTexture sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glGenTextures sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glActiveTexture sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glBindBuffer sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glGenBuffers sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glBufferData sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glAttachShader sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glCompileShader sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glCreateProgram sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glCreateShader sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glDeleteShader sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glEnableVertexAttribArray sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glGetProgramiv sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glGetProgramInfoLog sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glGetShaderiv sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glGetShaderInfoLog sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glGetUniformLocation sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glLinkProgram sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glShaderSource sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glUseProgram sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glUniform1f sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glUniform1i sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glUniformMatrix4fv sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glVertexAttribPointer sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glGenerateMipmap sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glBindVertexArray sin resolver
+11_ParticleAnimation.obj : error LNK2001: símbolo externo _glad_debug_glGenVertexArrays sin resolver
+C:\Users\zuriel\Desktop\ZZG\UNAM\INGENIERÍA\SEMESTRE 2023-2\CGIHC\PROYECTO\Proyecto_Ejecutable_CG\deps\glfw\MSVC2022\lib\x64\Debug\glfw3.lib : warning LNK4272: el tipo de máquina de biblioteca 'x64' está en conflicto con el tipo de máquina de destino 'x86'
+C:\Users\zuriel\Desktop\ZZG\UNAM\INGENIERÍA\SEMESTRE 2023-2\CGIHC\PROYECTO\Proyecto_Ejecutable_CG\deps\assimp\MSVC2022\lib\x64\Debug\assimp-vc143-mtd.lib : warning LNK4272: el tipo de máquina de biblioteca 'x64' está en conflicto con el tipo de máquina de destino 'x86'
+C:\Users\zuriel\Desktop\ZZG\UNAM\INGENIERÍA\SEMESTRE 2023-2\CGIHC\PROYECTO\Proyecto_Ejecutable_CG\deps\glad\MSVC2022\lib\x64\Debug\glad.lib : warning LNK4272: el tipo de máquina de biblioteca 'x64' está en conflicto con el tipo de máquina de destino 'x86'
+C:\Users\zuriel\Desktop\ZZG\UNAM\INGENIERÍA\SEMESTRE 2023-2\CGIHC\PROYECTO\Proyecto_Ejecutable_CG\deps\irrklang\lib\Winx64-visualStudio\irrKlang.lib : warning LNK4272: el tipo de máquina de biblioteca 'x64' está en conflicto con el tipo de máquina de destino 'x86'
+C:\Users\zuriel\Desktop\ZZG\UNAM\INGENIERÍA\SEMESTRE 2023-2\CGIHC\PROYECTO\Proyecto_Ejecutable_CG\ProyectoGC.exe : fatal error LNK1120: 61 externos sin resolver
