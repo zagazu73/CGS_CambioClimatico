@@ -15,3 +15,6 @@ Por:         Ferrer Trejo Johan Ariel
 
 
 Descripción: Este repositorio contiene los elementos que componen el proyecto final para la materia de Computación Gráfica e Interacción Humano-Computadora sobre una Simulación del Cambio Climático en México
+
+
+NOTA: Descomprima la carpeta deps.7z para extraer todas las dependencias.
