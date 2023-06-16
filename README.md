@@ -1,9 +1,9 @@
 # CGS_CambioClimatico
-#Universidad Nacional Autónoma de México
-#Facultad de Ingeniería
-#Semestre 2023-2
-#Computación Gráfica e Interacción Humano-Computadora
-#Por:         Ferrer Trejo Johan Ariel
+Universidad Nacional Autónoma de México
+Facultad de Ingeniería
+Semestre 2023-2
+Computación Gráfica e Interacción Humano-Computadora
+Por:         Ferrer Trejo Johan Ariel
               Medina Segura Fernando
               Pérez González Diego
               Recinas Barajas Carlos Eduardo
