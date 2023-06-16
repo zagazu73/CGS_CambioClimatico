@@ -8,13 +8,9 @@ Semestre 2023-2
 Computación Gráfica e Interacción Humano-Computadora
 
 Por:         Ferrer Trejo Johan Ariel
-
               Medina Segura Fernando
-              
               Pérez González Diego
-              
               Recinas Barajas Carlos Eduardo
-              
               Zárate García Zuriel
 
 
