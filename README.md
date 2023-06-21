@@ -18,3 +18,6 @@ Descripción: Este repositorio contiene los elementos que componen el proyecto f
 
 
 NOTA: Descomprima la carpeta deps.7z para extraer todas las dependencias.
+
+#INSTALADOR WINDOWS
+https://drive.google.com/file/d/1Gvm6h9qbUsevj4cfFKbosyPsC9Ef2NWB/view?usp=sharing
